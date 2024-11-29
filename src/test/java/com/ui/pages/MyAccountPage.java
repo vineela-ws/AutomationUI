@@ -11,7 +11,7 @@ public class MyAccountPage extends BrowserUtility {
 	public MyAccountPage(WebDriver driver) {
 		super(driver);
 	}
-	
+
 	public String getUserName() {
 		return visableText(USER_NAME_LOCATOR);
 	}

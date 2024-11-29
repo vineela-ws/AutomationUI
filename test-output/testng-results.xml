@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T11:56:17 IST" name="Default suite" finished-at="2024-11-29T11:56:36 IST" duration-ms="18397">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" name="loginTest" class="com.ui.tests.LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="e2e">
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" name="loginTest" class="com.ui.tests.LoginTest"/>
+      </group> <!-- e2e -->
+    </groups>
+    <test started-at="2024-11-29T11:56:17 IST" name="Default test" finished-at="2024-11-29T11:56:36 IST" duration-ms="18397">
+      <class name="com.ui.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:18 IST" name="setup" description="Load the Home Page of Website" finished-at="2024-11-29T11:56:25 IST" duration-ms="7528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:25 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" data-provider="LoginTestDataProvider" finished-at="2024-11-29T11:56:28 IST" duration-ms="2470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [emailAddress=goceno2705@kimasoft.com, password=Password]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:28 IST" name="setup" description="Load the Home Page of Website" finished-at="2024-11-29T11:56:33 IST" duration-ms="5939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:33 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" data-provider="LoginTestDataProvider" finished-at="2024-11-29T11:56:36 IST" duration-ms="2298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [emailAddress=goceno2705@kimasoft.com, password=Password]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.ui.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

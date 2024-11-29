@@ -1,0 +1,10 @@
+2024-11-29 11:56:17 [main] INFO com.ui.listeners.TestListener Test Suite Started 
+2024-11-29 11:56:25 [main] INFO com.ui.listeners.TestListener loginTest 
+2024-11-29 11:56:25 [main] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2024-11-29 11:56:25 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2024-11-29 11:56:28 [main] INFO com.ui.listeners.TestListener loginTestPASSED 
+2024-11-29 11:56:33 [main] INFO com.ui.listeners.TestListener loginTest 
+2024-11-29 11:56:33 [main] INFO com.ui.listeners.TestListener Verifies with the valid user is able to login into the application 
+2024-11-29 11:56:33 [main] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2024-11-29 11:56:36 [main] INFO com.ui.listeners.TestListener loginTestPASSED 
+2024-11-29 11:56:36 [main] INFO com.ui.listeners.TestListener Test Suite Completed 

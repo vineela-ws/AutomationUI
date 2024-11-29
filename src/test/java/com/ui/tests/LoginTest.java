@@ -1,16 +1,34 @@
 package com.ui.tests;
 
 import static com.constants.Browser.*;
+import static org.testng.Assert.assertEquals;
+
+import org.apache.logging.log4j.Logger;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
 import com.ui.pages.HomePage;
+import com.ui.pojo.User;
+import com.utility.LoggerUtility;
 
+
+@Listeners({com.ui.listeners.TestListener.class})
 public class LoginTest {
+	HomePage homepage;
 
-	public static void main(String[] args) {
-		HomePage homepage = new HomePage(CHROME);
-		//LoginPage loginpage = homepage.goToLoginPage();	
-		//loginpage.doLoginWith("goceno2705@kimasoft.com","Password");
-		String userName = homepage.goToLoginPage().doLoginWith("goceno2705@kimasoft.com","Password").getUserName();
-		System.out.println(userName);
+	@BeforeMethod(description = "Load the Home Page of Website")
+	public void setup() {
+		homepage = new HomePage(CHROME);
+	}
+
+	@Test(description = "Verifies with the valid user is able to login into the application", groups = { "e2e",
+			"sanity" },dataProviderClass = com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestDataProvider",
+					retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
+					
+	public void loginTest(User user) {
+		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAddress(),user.getPassword()).getUserName(),
+				"Vineela Amaraneni");
 	}
 
 }
