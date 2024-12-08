@@ -2,22 +2,44 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-29T11:56:17 IST" name="Default suite" finished-at="2024-11-29T11:56:36 IST" duration-ms="18397">
+  <suite started-at="2024-12-08T17:31:02 IST" name="Default suite" finished-at="2024-12-08T17:31:27 IST" duration-ms="24293">
     <groups>
       <group name="sanity">
-        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" name="loginTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@53dacd14]" name="loginTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- sanity -->
       <group name="e2e">
-        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" name="loginTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@53dacd14]" name="loginTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2024-11-29T11:56:17 IST" name="Default test" finished-at="2024-11-29T11:56:36 IST" duration-ms="18397">
+    <test started-at="2024-12-08T17:31:02 IST" name="Default test" finished-at="2024-12-08T17:31:27 IST" duration-ms="24293">
       <class name="com.ui.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:18 IST" name="setup" description="Load the Home Page of Website" finished-at="2024-11-29T11:56:25 IST" duration-ms="7528" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@53dacd14]" started-at="2024-12-08T17:31:03 IST" name="setup" description="Load the Home Page of Website" finished-at="2024-12-08T17:31:09 IST" duration-ms="6603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@53dacd14] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:25 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" data-provider="LoginTestDataProvider" finished-at="2024-11-29T11:56:28 IST" duration-ms="2470" status="PASS">
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@53dacd14]" started-at="2024-12-08T17:31:09 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" data-provider="LoginTestDataProvider" finished-at="2024-12-08T17:31:12 IST" duration-ms="2471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,11 +50,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:28 IST" name="setup" description="Load the Home Page of Website" finished-at="2024-11-29T11:56:33 IST" duration-ms="5939" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@53dacd14]" started-at="2024-12-08T17:31:12 IST" name="setup" description="Load the Home Page of Website" finished-at="2024-12-08T17:31:24 IST" duration-ms="11919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@53dacd14] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@76b1e9b8]" started-at="2024-11-29T11:56:33 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" data-provider="LoginTestDataProvider" finished-at="2024-11-29T11:56:36 IST" duration-ms="2298" status="PASS">
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@53dacd14]" started-at="2024-12-08T17:31:24 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" data-provider="LoginTestDataProvider" finished-at="2024-12-08T17:31:27 IST" duration-ms="2900" status="PASS">
           <params>
             <param index="0">
               <value>

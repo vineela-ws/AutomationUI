@@ -6,7 +6,7 @@
       <class name="com.ui.tests.LoginTest">
         <methods>
           <include name="setup"/>
-          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- com.ui.tests.LoginTest -->
     </classes>
